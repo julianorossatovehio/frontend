@@ -4,7 +4,7 @@ import UserLists from './UserLists';
 export default class LoginComponent extends React.Component{
     constructor(props) {
         super(props);
-        this.state = {username: 'Test', password: 'CursoDjango'};
+        this.state = {username: 'admin', password: '123456'};
     
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
